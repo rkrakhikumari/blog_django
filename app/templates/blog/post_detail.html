@@ -1,0 +1,9 @@
+{%extends 'blog/post_list.html'%}
+
+{% block content %}
+<h1>{{post.title}}</h1>
+<p>{{post.content}}</p>
+<button><a href="{% url 'post_update' post.pk %}">Edit</a></button>
+<button><a href="{% url 'post_delete' post.pk %}">Delete</a></button>
+<button><a href="{% url 'post_list' %}">Back To Posts</a></button>
+{% endblock  %}

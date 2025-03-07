@@ -1,0 +1,15 @@
+{%extends 'blog/post_list.html'%}
+
+{% block content %}
+<h1>{% if post %}Edit{% else%}Create{%endif%}Post</h1>
+<form method="POST">
+    {% csrf_token %}
+    <input type="text" name="title" placeholder="Title" value="{{post.title| default_if_none:"" }}"><br><br>
+
+    <textarea name="content" placeholder="Content">{{post.content|default_if_none:''}}</textarea><br><br>
+    <button type='submit'>Submit</button><br><br>
+
+
+</form>
+<button><a href="{% url 'post_list' %}">Cancel</a></button> 
+{% endblock  %}

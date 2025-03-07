@@ -1,0 +1,58 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #fcb0f5;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 60%;
+    margin: 20px auto;
+    background: #f7cdf2;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(148, 108, 151, 0.1);
+
+}
+h1{
+    color: #b40ac4;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    
+    text-decoration:none;
+}
+/* button{
+    padding: 8px 16px;
+    background-color: #b835f5;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #ae00ff;
+} */
+
+/* Light Purple Button */
+button {
+    background-color: #f0a4f0; /* Light purple */
+    color:#7b4d99;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Hover Effect: Slightly Darker Purple */
+button:hover {
+    background-color: #dd8add; /* Darker shade of light purple */
+    transform: scale(1.05); /* Slight zoom effect */
+}

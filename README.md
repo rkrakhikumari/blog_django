@@ -1,0 +1,5 @@
+post - ![image](https://github.com/user-attachments/assets/6e1221aa-02a1-4c95-808e-64a30e4030b1)
+edit -![image](https://github.com/user-attachments/assets/c914f454-b0a2-49a2-8a9d-c7f5348e2800)
+new post - ![image](https://github.com/user-attachments/assets/de3cf6d7-805b-47a9-b1aa-8b196ecbdba6)
+about post - ![image](https://github.com/user-attachments/assets/95faf5a6-9381-4fae-88ee-7c949d2fa314)
+delete - ![image](https://github.com/user-attachments/assets/722fe9ec-a416-4c73-ac1e-20dab83ffee1)
